@@ -7,6 +7,8 @@ single **GitHub Actions** workflow.
 Everything in this repository has been installed, linted, tested, and coverage-verified
 locally before being committed here — there are no placeholder scripts.
 
+Updated README to trigger GitHub Actions.
+
 ---
 
 ## 1. Folder Structure
