@@ -1,0 +1,21 @@
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# --- Backend ---
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/coverage.xml
+backend/.coverage
+backend/venv/
+backend/.venv/
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- SonarCloud ---
+.scannerwork/
