@@ -25,12 +25,12 @@ jobs:
           fetch-depth: 0
 
       # ---------------------------------------------------------
-      # 2. Setup Node.js 20 (frontend)
+      # 2. Setup Node.js 24 (frontend)
       # ---------------------------------------------------------
-      - name: Setup Node.js 20
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       # ---------------------------------------------------------
       # 3. Setup Python (backend)
@@ -81,7 +81,7 @@ jobs:
       # 9. Run SonarCloud Scan
       # ---------------------------------------------------------
       - name: SonarCloud Scan
-        uses: SonarSource/sonarqube-scan-action@v4
+        uses: SonarSource/sonarqube-scan-action@v6
         with:
           projectBaseDir: project
         env:
